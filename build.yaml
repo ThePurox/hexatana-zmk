@@ -17,5 +17,6 @@
 #     artifact-name: corne_left_with_logging
 #
 ---
-board: [waveshare_rp2040_zero]
+# board: [waveshare_rp2040_zero]
+board: [rpi_pico]
 shield: [hexatana]
