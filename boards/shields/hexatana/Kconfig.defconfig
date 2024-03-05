@@ -1,0 +1,6 @@
+if SHIELD_HEXATANA
+
+config ZMK_KEYBOARD_NAME
+    default "Hexatana"
+
+endif

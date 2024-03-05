@@ -1,0 +1,8 @@
+file_format: "1"
+id: hexatana
+name: Hexatana
+type: shield
+url: https://github.com/ThePurox/hexatana-zmk
+requires: [waveshare_rp2040_zero]
+features:
+  - keys
