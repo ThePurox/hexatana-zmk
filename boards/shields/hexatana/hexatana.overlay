@@ -1,9 +1,10 @@
- #include <dt-bindings/zmk/matrix_transform.h>
+#include <dt-bindings/zmk/matrix_transform.h>
 
 / {
-    chosen {
+  chosen {
         zmk,kscan = &kscan0;
         zmk,matrix_transform = &default_transform;
+        zmk,underglow = &led_strip;
     };
     default_transform: keymap_transform_0 {
         compatible = "zmk,matrix-transform";
